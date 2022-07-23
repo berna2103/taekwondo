@@ -1,0 +1,21 @@
+.contact-form{
+    height: 1100px;
+    width: 800px;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width: 900px) {
+    .contact-form {
+        height: 1300px;
+        width: 700px;
+        background-color: aliceblue;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .contact-form {
+        height: 1300px;
+        width: 350px;
+        background-color: aliceblue;
+    }
+  }

@@ -1,0 +1,44 @@
+
+.img-fluid-carousel{
+    height: 600px;
+    width: 55vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-indicators button {
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    border-radius: 50%;
+    background-color: #ff7a54 !important;
+  }
+  
+  .carousel-indicators button:not(:first-child) {
+    margin-left: 0.5rem;
+  }
+  
+  .carousel-indicators .active {
+    background-color: red;
+  }
+
+@media only screen and (max-width: 600px) {
+    .img-fluid-carousel {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) {
+    .img-fluid-carousel {
+        height: 725px;
+        width: 55vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    #promotions{
+        height: 100vh;
+    }
+
+  }
